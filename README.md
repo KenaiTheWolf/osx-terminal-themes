@@ -1,660 +1,721 @@
-# mac-os-x-terminal-themes
+# macos-terminal-themes
 
-# Color schemes for default Mac OS X Terminal.app
+# Color themes for default macOS Terminal.app
 
-This is a set of color schemes for default Mac OS X Terminal.app (ported from
-[iTerm 2 color schemes, collected by @mbadolato][1]). Screenshots are below and
+This is a set of color themes for default macOS Terminal.app (initially ported from
+[iTerm2 color schemes, collected by @mbadolato][1]). Screenshots are demonstrated below and
 in the `screenshots/` directory of this repo.
 
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
 
-_Note_: Some default Mac OS X themes are not included here (default themes like
+_Note_: Some default macOS themes are not included here (default themes like
 "Pro", "Basic", "Grass", etc.), because you already have them :)
+
+
+## Prerequisites
+
+Since terminal themes are just color schemes, you need to enable color formatting for your shell first - see [this comment][2] for more details
+
+[2]: https://github.com/lysyi3m/macos-terminal-themes/issues/1#issuecomment-148635036
 
 
 ## Installation Instructions
 
 - Clone or download this repo
 
-- Go to `schemes/` folder
+- Go to `themes/` folder
 
-- Double click on selected `*.terminal` file. It will open a new Terminal window with that
-  color scheme.
+- Double click on `*.terminal` file. It will open a new Terminal window with selected
+  color theme.
 
-- Set the scheme as the default one with `Shell -> Use Settings as Default`
+- Set the theme as the default one with `Shell -> Use Settings as Default`
 
 
 ## Tools
 
-### Convert iTerm 2 Color Scheme
+### Convert iTerm2 Color Scheme
 
-This repo contains a tool to convert any iTerm 2 color scheme into Mac OS X
-Terminal scheme. To run just execute script:
+This repo contains a tool to convert any iTerm2 color theme into macOS
+Terminal theme. To run just execute script:
 
+```sh
+$ ./tools/iterm2terminal.swift /path/to/my/awesome-theme.itermcolors
 ```
-./tools/iterm2terminal.swift /path/to/my/awesome-scheme.itermcolors
-```
+
 
 ### Generate Theme Preview
 
-If you have an awesome schemes and going to publish them, please generate
-preview image using the following steps.
+If you have an awesome theme and want to publish it, please generate a
+preview image using the following steps:
 
 1. Load the theme in a terminal.
 2. Run
-   ```
-   bash tools/preview.sh
+   ```sh
+   $ bash tools/preview.sh
    ```
 3. Set the font size to 14.
 4. Take a screenshot and put it in the `screenshots/` folder.
-5. Update the `README.md` and `screenshots/README.md` to include your new
-   screenshot.
+5. Update the `README.md` to include your new theme screenshot.
+
+_Note_: preview will be generated using [ANSI Escape Sequences][3]
+
+[3]: http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
 
 
 ## Screenshots
 
-### 3024 Day
+### 3024 Day ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/3024 Day.terminal>))
 
 ![Screenshot](screenshots/3024_day.png)
 
-### 3024 Night
+### 3024 Night ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/3024 Night.terminal>))
 
 ![Screenshot](screenshots/3024_night.png)
 
-### AdventureTime
+### AdventureTime ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/AdventureTime.terminal>))
 
-![Screenshot](screenshots/adventure_time.png)
+![Screenshot](screenshots/adventuretime.png)
 
-### Afterglow
+### Afterglow ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Afterglow.terminal>))
 
 ![Screenshot](screenshots/afterglow.png)
 
-### AlienBlood
+### AlienBlood ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/AlienBlood.terminal>))
 
-![Screenshot](screenshots/alien_blood.png)
+![Screenshot](screenshots/alienblood.png)
 
-### Alucard
+### Alucard ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Alucard.terminal>))
 
 ![Screenshot](screenshots/alucard.png)
 
-### Argonaut
+### Argonaut ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Argonaut.terminal>))
 
 ![Screenshot](screenshots/argonaut.png)
 
-### Arthur
+### Arthur ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Arthur.terminal>))
 
 ![Screenshot](screenshots/arthur.png)
 
-### AtelierSulphurpool
+### AtelierSulphurpool ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/AtelierSulphurpool.terminal>))
 
-![Screenshot](screenshots/atelier-sulphurpool_dark.png)
+![Screenshot](screenshots/ateliersulphurpool.png)
 
-### Atom
+### Atom ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Atom.terminal>))
 
 ![Screenshot](screenshots/atom.png)
 
-### Atom One Light
+### Atom One Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Atom One Light.terminal>))
 
-![Screenshot](screenshots/atom_one_light.png)
+![Screenshot](screenshots/atomonelight.png)
 
-### Batman
+### ayu ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/ayu.terminal>))
+
+![Screenshot](screenshots/ayu.png)
+
+### ayu Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/ayu Light.terminal>))
+
+![Screenshot](screenshots/ayu_light.png)
+
+### Ayu Mirage ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Ayu Mirage.terminal>))
+
+![Screenshot](screenshots/ayu_mirage.png)
+
+### Batman ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Batman.terminal>))
 
 ![Screenshot](screenshots/batman.png)
 
-### Belafonte Day
+### Belafonte Day ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Belafonte Day.terminal>))
 
 ![Screenshot](screenshots/belafonte_day.png)
 
-### Belafonte Night
+### Belafonte Night ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Belafonte Night.terminal>))
 
 ![Screenshot](screenshots/belafonte_night.png)
 
-### BirdsOfParadise
+### BirdsOfParadise ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/BirdsOfParadise.terminal>))
 
-![Screenshot](screenshots/birds_of_paradise.png)
+![Screenshot](screenshots/birdsofparadise.png)
 
-### Blazer
+### Blazer ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Blazer.terminal>))
 
 ![Screenshot](screenshots/blazer.png)
 
-### Borland
+### Borland ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Borland.terminal>))
 
 ![Screenshot](screenshots/borland.png)
 
-### Bright Ligths
+### Bright Lights ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Bright Lights.terminal>))
 
 ![Screenshot](screenshots/bright_lights.png)
 
-### Broadcast
+### Broadcast ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Broadcast.terminal>))
 
 ![Screenshot](screenshots/broadcast.png)
 
-### Brogrammer
+### Brogrammer ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Brogrammer.terminal>))
 
 ![Screenshot](screenshots/brogrammer.png)
 
-### C64
+### C64 ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/C64.terminal>))
 
 ![Screenshot](screenshots/c64.png)
 
-### Chalk
+### Chalice ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Chalice.terminal>))
+
+![Screenshot](screenshots/chalice.png)
+
+### Chalice Dark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Chalice Dark.terminal>))
+
+![Screenshot](screenshots/chalice_dark.png)
+
+### Chalk ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Chalk.terminal>))
 
 ![Screenshot](screenshots/chalk.png)
 
-### Chalkboard
+### Chalkboard ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Chalkboard.terminal>))
 
 ![Screenshot](screenshots/chalkboard.png)
 
-### Ciapre
+### Ciapre ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Ciapre.terminal>))
 
 ![Screenshot](screenshots/ciapre.png)
 
-### CLRS
+### CLRS ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/CLRS.terminal>))
 
 ![Screenshot](screenshots/clrs.png)
 
-### Cobalt Neon
+### Cobalt Neon ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Cobalt Neon.terminal>))
 
 ![Screenshot](screenshots/cobalt_neon.png)
 
-### Cobalt2
+### Cobalt2 ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Cobalt2.terminal>))
 
 ![Screenshot](screenshots/cobalt2.png)
 
-### CrayonPonyFish
+### CrayonPonyFish ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/CrayonPonyFish.terminal>))
 
-![Screenshot](screenshots/crayon_pony_fish.png)
+![Screenshot](screenshots/crayonponyfish.png)
 
-### Dark Pastel
+### Dark Pastel ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Dark Pastel.terminal>))
 
 ![Screenshot](screenshots/dark_pastel.png)
 
-### Darkside
+### Darkside ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Darkside.terminal>))
 
 ![Screenshot](screenshots/darkside.png)
 
-### Desert
+### Desert ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Desert.terminal>))
 
 ![Screenshot](screenshots/desert.png)
 
-### DimmedMonokai
+### DimmedMonokai ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/DimmedMonokai.terminal>))
 
-![Screenshot](screenshots/dimmed_monokai.png)
+![Screenshot](screenshots/dimmedmonokai.png)
 
-### DotGov
+### DotGov ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/DotGov.terminal>))
 
-![Screenshot](screenshots/dot_gov.png)
+![Screenshot](screenshots/dotgov.png)
 
-### Dracula
+### Dracula ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Dracula.terminal>))
 
 ![Screenshot](screenshots/dracula.png)
 
-### Dumbeldore
+### Dumbledore ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Dumbledore.terminal>))
 
-![Screenshot](screenshots/dumbeldore.png)
+![Screenshot](screenshots/dumbledore.png)
 
-### Duotone Dark
+### Duotone Dark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Duotone Dark.terminal>))
 
 ![Screenshot](screenshots/duotone_dark.png)
 
-### Earthsong
+### Earthsong ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Earthsong.terminal>))
 
 ![Screenshot](screenshots/earthsong.png)
 
-### Elemental
+### Elemental ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Elemental.terminal>))
 
 ![Screenshot](screenshots/elemental.png)
 
-### ENCOM
+### ENCOM ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/ENCOM.terminal>))
 
 ![Screenshot](screenshots/encom.png)
 
-### Espresso
+### Espresso ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Espresso.terminal>))
 
 ![Screenshot](screenshots/espresso.png)
 
-### Espresso Libre
+### Espresso Libre ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Espresso Libre.terminal>))
 
 ![Screenshot](screenshots/espresso_libre.png)
 
-### Fideloper
+### Fideloper ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Fideloper.terminal>))
 
 ![Screenshot](screenshots/fideloper.png)
 
-### FishTank
+### FishTank ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/FishTank.terminal>))
 
-![Screenshot](screenshots/fish_tank.png)
+![Screenshot](screenshots/fishtank.png)
 
-### Flat
+### Flat ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Flat.terminal>))
 
 ![Screenshot](screenshots/flat.png)
 
-### Flatland
+### Flatland ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Flatland.terminal>))
 
 ![Screenshot](screenshots/flatland.png)
 
-### Floraverse
+### Floraverse ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Floraverse.terminal>))
 
 ![Screenshot](screenshots/floraverse.png)
 
-### FrontEndDelight
+### FrontEndDelight ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/FrontEndDelight.terminal>))
 
-![Screenshot](screenshots/front_end_delight.png)
+![Screenshot](screenshots/frontenddelight.png)
 
-### FunForrest
+### FunForrest ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/FunForrest.terminal>))
 
-![Screenshot](screenshots/fun_forrest.png)
+![Screenshot](screenshots/funforrest.png)
 
-### Galaxy
+### Galaxy ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Galaxy.terminal>))
 
 ![Screenshot](screenshots/galaxy.png)
 
-### Github
+### Github ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Github.terminal>))
 
 ![Screenshot](screenshots/github.png)
 
-### Glacier
+### Glacier ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Glacier.terminal>))
 
 ![Screenshot](screenshots/glacier.png)
 
-### Grape
+### GoaBase ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/GoaBase.terminal>))
+
+![Screenshot](screenshots/goabase.png)
+
+### Grape ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Grape.terminal>))
 
 ![Screenshot](screenshots/grape.png)
 
-### Grass
+### Grass ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Grass.terminal>))
 
 ![Screenshot](screenshots/grass.png)
 
-### Hardcore
+### Hardcore ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Hardcore.terminal>))
 
 ![Screenshot](screenshots/hardcore.png)
 
-### Harper
+### Harper ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Harper.terminal>))
 
 ![Screenshot](screenshots/harper.png)
 
-### Highway
+### Highway ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Highway.terminal>))
 
 ![Screenshot](screenshots/highway.png)
 
-### Hipster Green
+### Hipster Green ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Hipster Green.terminal>))
 
 ![Screenshot](screenshots/hipster_green.png)
 
-### Homebrew
+### Homebrew ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Homebrew.terminal>))
 
 ![Screenshot](screenshots/homebrew.png)
 
-### Hurtado
+### Hurtado ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Hurtado.terminal>))
 
 ![Screenshot](screenshots/hurtado.png)
 
-### Hybrid
+### Hybrid ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Hybrid.terminal>))
 
 ![Screenshot](screenshots/hybrid.png)
 
-### IC_Green_PPL
+### IC_Green_PPL ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/IC_Green_PPL.terminal>))
 
 ![Screenshot](screenshots/ic_green_ppl.png)
 
-### IC_Orange_PPL
+### IC_Orange_PPL ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/IC_Orange_PPL.terminal>))
 
 ![Screenshot](screenshots/ic_orange_ppl.png)
 
-### idleToes
+### idleToes ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/idleToes.terminal>))
 
-![Screenshot](screenshots/idleToes.png)
+![Screenshot](screenshots/idletoes.png)
 
-### IR_Black
+### IR_Black ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/IR_Black.terminal>))
 
 ![Screenshot](screenshots/ir_black.png)
 
-### Jackie Brown
+### Jackie Brown ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Jackie Brown.terminal>))
 
 ![Screenshot](screenshots/jackie_brown.png)
 
-### Japanesque
+### Japanesque ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Japanesque.terminal>))
 
 ![Screenshot](screenshots/japanesque.png)
 
-### Jellybeans
+### Jellybeans ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Jellybeans.terminal>))
 
 ![Screenshot](screenshots/jellybeans.png)
 
-### JetBrains Darcula
+### JetBrains Darcula ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/JetBrains Darcula.terminal>))
 
-![Screenshot](screenshots/jet_brains_darcula.png)
+![Screenshot](screenshots/jetbrains_darcula.png)
 
-### Kibble
+### Kibble ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Kibble.terminal>))
 
 ![Screenshot](screenshots/kibble.png)
 
-### Later This Evening
+### Later This Evening ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Later This Evening.terminal>))
 
 ![Screenshot](screenshots/later_this_evening.png)
 
-### Lavandula
+### Lavandula ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Lavandula.terminal>))
 
 ![Screenshot](screenshots/lavandula.png)
 
-### LiquidCarbon
+### LiquidCarbon ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/LiquidCarbon.terminal>))
 
-![Screenshot](screenshots/liquid_carbon.png)
+![Screenshot](screenshots/liquidcarbon.png)
 
-### LiquidCarbonTransparent
+### LiquidCarbonTransparent ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/LiquidCarbonTransparent.terminal>))
 
-![Screenshot](screenshots/liquid_carbon_transparent.png)
+![Screenshot](screenshots/liquidcarbontransparent.png)
 
-### LiquidCarbonTransparentInverse
+### LiquidCarbonTransparentInverse ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/LiquidCarbonTransparentInverse.terminal>))
 
-![Screenshot](screenshots/liquid_carbon_transparent_inverse.png)
+![Screenshot](screenshots/liquidcarbontransparentinverse.png)
 
-### Man Page
+### Man Page ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Man Page.terminal>))
 
 ![Screenshot](screenshots/man_page.png)
 
-### Material
+### Material ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Material.terminal>))
 
 ![Screenshot](screenshots/material.png)
 
-### MaterialDark
+### MaterialDark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/MaterialDark.terminal>))
 
-![Screenshot](screenshots/material_dark.png)
+![Screenshot](screenshots/materialdark.png)
 
-### Mathias
+### Mathias ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Mathias.terminal>))
 
 ![Screenshot](screenshots/mathias.png)
 
-### Medallion
+### Medallion ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Medallion.terminal>))
 
 ![Screenshot](screenshots/medallion.png)
 
-### Misterioso
+### Misterioso ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Misterioso.terminal>))
 
 ![Screenshot](screenshots/misterioso.png)
 
-### Molokai
+### Molokai ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Molokai.terminal>))
 
 ![Screenshot](screenshots/molokai.png)
 
-### MonaLisa
+### MonaLisa ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/MonaLisa.terminal>))
 
-![Screenshot](screenshots/mona_lisa.png)
+![Screenshot](screenshots/monalisa.png)
 
-### Monokai Soda
+### Monokai Pro (Filter Spectrum) ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Monokai Pro (Filter Spectrum).terminal>))
+
+![Screenshot](screenshots/monokai_pro__filter_spectrum_.terminal.png)
+
+### Monokai Soda ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Monokai Soda.terminal>))
 
 ![Screenshot](screenshots/monokai_soda.png)
 
-### N0tch2k
+### N0tch2k ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/N0tch2k.terminal>))
 
 ![Screenshot](screenshots/n0tch2k.png)
 
-### Neopolitan
+### Neopolitan ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Neopolitan.terminal>))
 
 ![Screenshot](screenshots/neopolitan.png)
 
-### Neutron
+### Neutron ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Neutron.terminal>))
 
 ![Screenshot](screenshots/neutron.png)
 
+### Night Owl ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Night Owl.terminal>))
 
-### NightLion v1
+![Screenshot](screenshots/night_owl.png)
+
+### NightLion v1 ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/NightLion v1.terminal>))
 
 ![Screenshot](screenshots/nightlion_v1.png)
 
-### NightLion v2
+### NightLion v2 ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/NightLion v2.terminal>))
 
 ![Screenshot](screenshots/nightlion_v2.png)
 
-### Novel
+### Nova ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Nova.terminal>))
+
+![Screenshot](screenshots/nova.png)
+
+### Novel ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Novel.terminal>))
 
 ![Screenshot](screenshots/novel.png)
 
-### Obsidian
+### Obsidian ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Obsidian.terminal>))
 
 ![Screenshot](screenshots/obsidian.png)
 
-### Ocean
+### Ocean ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Ocean.terminal>))
 
 ![Screenshot](screenshots/ocean.png)
 
+### OceanicMaterial ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/OceanicMaterial.terminal>))
 
-### OceanicMaterial
+![Screenshot](screenshots/oceanicmaterial.png)
 
-![Screenshot](screenshots/oceanic_material.png)
-
-### Ollie
+### Ollie ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Ollie.terminal>))
 
 ![Screenshot](screenshots/ollie.png)
 
-### Parasio Dark
+### Parasio Dark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Parasio Dark.terminal>))
 
 ![Screenshot](screenshots/parasio_dark.png)
 
-### PaulMillr
+### PaulMillr ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/PaulMillr.terminal>))
 
-![Screenshot](screenshots/paul_millr.png)
+![Screenshot](screenshots/paulmillr.png)
 
-### Pencil Dark
+### Pencil Dark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/PencilDark.terminal>))
 
-![Screenshot](screenshots/pencil_dark.png)
+![Screenshot](screenshots/pencildark.png)
 
-### Pencil Light
+### Pencil Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/PencilLight.terminal>))
 
-![Screenshot](screenshots/pencil_light.png)
+![Screenshot](screenshots/pencillight.png)
 
-### Piatto Light
+### Piatto Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Piatto Light.terminal>))
 
 ![Screenshot](screenshots/piatto_light.png)
 
-### Pnevma
+### Pnevma ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Pnevma.terminal>))
 
 ![Screenshot](screenshots/pnevma.png)
 
-### Pro
+### Pro ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Pro.terminal>))
 
 ![Screenshot](screenshots/pro.png)
 
-### Red Alert
+### Red Alert ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Red Alert.terminal>))
 
 ![Screenshot](screenshots/red_alert.png)
 
-### Red Sands
+### Red Sands ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Red Sands.terminal>))
 
 ![Screenshot](screenshots/red_sands.png)
 
-### Rippedcasts
+### Relaxed ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Relaxed.terminal>))
 
-![Screenshot](screenshots/rippedcasts.png)
+![Screenshot](screenshots/relaxed.png)
 
-### Renault Style
+### Renault Style ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Renault Style.terminal>))
 
 ![Screenshot](screenshots/renault_style.png)
 
-### Renault Style Light
+### Renault Style Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Renault Style Light.terminal>))
 
 ![Screenshot](screenshots/renault_style_light.png)
 
-### Royal
+### Rippedcasts ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Rippedcasts.terminal>))
+
+![Screenshot](screenshots/rippedcasts.png)
+
+### Royal ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Royal.terminal>))
 
 ![Screenshot](screenshots/royal.png)
 
-### Seafoam Pastel
+### Seafoam Pastel ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Seafoam Pastel.terminal>))
 
 ![Screenshot](screenshots/seafoam_pastel.png)
 
-### SeaShells
+### SeaShells ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/SeaShells.terminal>))
 
-![Screenshot](screenshots/sea_shells.png)
+![Screenshot](screenshots/seashells.png)
 
-### Seti
+### Seti ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Seti.terminal>))
 
 ![Screenshot](screenshots/seti.png)
 
-### Shaman
+### Shaman ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Shaman.terminal>))
 
 ![Screenshot](screenshots/shaman.png)
 
-### Slate
+### Slate ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Slate.terminal>))
 
 ![Screenshot](screenshots/slate.png)
 
-### Smyck
+### Smyck ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Smyck.terminal>))
 
 ![Screenshot](screenshots/smyck.png)
 
-### SoftServer
+### SoftServer ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/SoftServer.terminal>))
 
-![Screenshot](screenshots/soft_server.png)
+![Screenshot](screenshots/softserver.png)
 
-### Solarized Darcula (With background image)
-
-![Screenshot](screenshots/solarized_darcula_with_background.png)
-
-### Solarized Darcula (Without background image)
+### Solarized Darcula ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Solarized Darcula.terminal>))
 
 ![Screenshot](screenshots/solarized_darcula.png)
 
-### Solarized Dark
+### Solarized Dark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Solarized Dark.terminal>))
 
 ![Screenshot](screenshots/solarized_dark.png)
 
-### Solarized Dark Higher Contrast
+### Solarized Dark (patched) ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Solarized Dark (patched).terminal>))
+
+![Screenshot](screenshots/solarized_dark___patched.png)
+
+### Solarized Dark Higher Contrast ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Solarized Dark Higher Contrast.terminal>))
 
 ![Screenshot](screenshots/solarized_dark_higher_contrast.png)
 
-### Solarized Light
+### Solarized Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Solarized Light.terminal>))
 
 ![Screenshot](screenshots/solarized_light.png)
 
-### SpaceGray
+### Source Code X ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Source Code X.terminal>))
 
-![Screenshot](screenshots/space_gray.png)
+![Screenshot](screenshots/source_code_x.png)
 
-### SpaceGray Eighties
-
-![Screenshot](screenshots/spacegray_eighties.png)
-
-### SpaceGray Eighties Dull
-
-![Screenshot](screenshots/spacegray_eighties_dull.png)
-
-### Spacedust
+### Spacedust ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Spacedust.terminal>))
 
 ![Screenshot](screenshots/spacedust.png)
 
-### Spiderman
+### SpaceGray ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/SpaceGray.terminal>))
+
+![Screenshot](screenshots/spacegray.png)
+
+### SpaceGray Eighties ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/SpaceGray Eighties.terminal>))
+
+![Screenshot](screenshots/spacegray_eighties.png)
+
+### SpaceGray Eighties Dull ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/SpaceGray Eighties Dull.terminal>))
+
+![Screenshot](screenshots/spacegray_eighties_dull.png)
+
+### Spiderman ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Spiderman.terminal>))
 
 ![Screenshot](screenshots/spiderman.png)
 
-### Spring
+### Spring ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Spring.terminal>))
 
 ![Screenshot](screenshots/spring.png)
 
-### Square
+### Square ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Square.terminal>))
 
 ![Screenshot](screenshots/square.png)
 
-### Sundried
+### Sundried ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Sundried.terminal>))
 
 ![Screenshot](screenshots/sundried.png)
 
-### Symfonic
+### Symfonic ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Symfonic.terminal>))
 
 ![Screenshot](screenshots/symfonic.png)
 
-### Tango Dark
+### Tango Dark ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tango Dark.terminal>))
 
 ![Screenshot](screenshots/tango_dark.png)
 
-### Tango Light
+### Tango Light ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tango Light.terminal>))
 
 ![Screenshot](screenshots/tango_light.png)
 
-### Teerb
+### Teerb ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Teerb.terminal>))
 
 ![Screenshot](screenshots/teerb.png)
 
-### Terminal Basic
-
-![Screenshot](screenshots/terminal_basic.png)
-
-### Thayer Bright
+### Thayer Bright ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Thayer Bright.terminal>))
 
 ![Screenshot](screenshots/thayer_bright.png)
 
-### The Hulk
+### The Hulk ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/The Hulk.terminal>))
 
 ![Screenshot](screenshots/the_hulk.png)
 
-### Tomorrow
+### Tomorrow ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tomorrow.terminal>))
 
 ![Screenshot](screenshots/tomorrow.png)
 
-### Tomorrow Night
+### Tomorrow Night ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tomorrow Night.terminal>))
 
 ![Screenshot](screenshots/tomorrow_night.png)
 
-### Tomorrow Night Blue
+### Tomorrow Night Blue ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tomorrow Night Blue.terminal>))
 
 ![Screenshot](screenshots/tomorrow_night_blue.png)
 
-### Tomorrow Night Bright
+### Tomorrow Night Bright ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tomorrow Night Bright.terminal>))
 
 ![Screenshot](screenshots/tomorrow_night_bright.png)
 
-### Tomorrow Night Eighties
+### Tomorrow Night Eighties ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Tomorrow Night Eighties.terminal>))
 
 ![Screenshot](screenshots/tomorrow_night_eighties.png)
 
-### ToyChest
+### ToyChest ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/ToyChest.terminal>))
 
-![Screenshot](screenshots/toy_chest.png)
+![Screenshot](screenshots/toychest.png)
 
-### Treehouse
+### Treehouse ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Treehouse.terminal>))
 
 ![Screenshot](screenshots/treehouse.png)
 
-### Twilight
+### Twilight ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Twilight.terminal>))
 
 ![Screenshot](screenshots/twilight.png)
 
-### Ubuntu
+### Ubuntu ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Ubuntu.terminal>))
 
 ![Screenshot](screenshots/ubuntu.png)
 
-### Urple
+### Unikitty ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Unikitty.terminal>))
+
+![Screenshot](screenshots/unikitty.png)
+
+### Urple ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Urple.terminal>))
 
 ![Screenshot](screenshots/urple.png)
 
-### Vaughn
+### Vaughn ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Vaughn.terminal>))
 
 ![Screenshot](screenshots/vaughn.png)
 
-### VibrantInk
+### VibrantInk ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/VibrantInk.terminal>))
 
-![Screenshot](screenshots/vibrant_ink.png)
+![Screenshot](screenshots/vibrantink.png)
 
-### WarmNeon
+### VS Code Dark Plus ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/VS Code Dark Plus.terminal>))
 
-![Screenshot](screenshots/warm_neon.png)
+![Screenshot](screenshots/vs_code_dark_plus.png)
 
-### Wez
+### VS Code Light Plus ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/VS Code Light Plus.terminal>))
+
+![Screenshot](screenshots/vs_code_light_plus.png)
+
+### WarmNeon ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/WarmNeon.terminal>))
+
+![Screenshot](screenshots/warmneon.png)
+
+### Wez ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Wez.terminal>))
 
 ![Screenshot](screenshots/wez.png)
 
-### WildCherry
+### WildCherry ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/WildCherry.terminal>))
 
-![Screenshot](screenshots/wild_cherry.png)
+![Screenshot](screenshots/wildcherry.png)
 
-### Wombat
+### Wombat ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Wombat.terminal>))
 
 ![Screenshot](screenshots/wombat.png)
 
-### Wryan
+### Wryan ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Wryan.terminal>))
 
 ![Screenshot](screenshots/wryan.png)
 
-### Zenburn
+### Zenburn ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Zenburn.terminal>))
 
 ![Screenshot](screenshots/zenburn.png)
